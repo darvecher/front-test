@@ -1,0 +1,20 @@
+{
+  "name": "planfix-test-front",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": ">=0.5.1",
+    "grunt-contrib-copy": ">=0.8.0",
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-file-creator": "^0.1.3",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "grunt-sync": "^0.4.1",
+    "jquery": "^3.4.0"
+  }
+}

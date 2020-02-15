@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"module": "system",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"outFile": "js/jslib-compiled.js",
+		"sourceMap": true,
+		"diagnostics": true,
+		"incremental": true,
+		"target": "ES5",
+		"lib": [
+		 "es5", "es2015", "scripthost","dom"],
+		"typeRoots": [
+			"./node_modules/@types",
+			"./js/_types"
+		]
+	},
+	"include": [
+		"js/ts/*",
+		"js/_types/*"
+	],
+	"exclude": [
+		"node_modules",
+		"templates.js"
+	]
+}
