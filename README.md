@@ -16,10 +16,14 @@ https://stackoverflow.com/questions/4819060/allow-google-chrome-to-use-xmlhttpre
 Там уже всё окружение сборки проекта настроено
 
 Вызываем на склонированном репозитории 
+
 npm install
 
+
 Ставим глобально
+
 npm install -g grunt
+
 npm install -g typescript
 
 После этого вызов grunt - собирает less и mustcahe
